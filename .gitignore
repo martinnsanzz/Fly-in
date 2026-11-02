@@ -1,0 +1,20 @@
+# This is written so the .gitignore is not ignored
+!.gitignore
+
+# Virtual environment
+.venv
+
+# Python artifacts
+__pycache__
+
+# Mypy cache
+.mypy_cache
+
+# Pytest cache
+.pytest_cache
+
+# PDF
+*.pdf
+
+# Parsed json maps
+parsed_maps/
